@@ -1,0 +1,27 @@
+*{
+    border: 1px solid red;
+    
+}
+
+header {
+   /* position: fixed; */
+    /* top: 0; */
+    min-height: 75px;
+    display: flex;
+    background-color: #eee;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+    #header-img {
+    width: 150px;
+    height: 100px;
+    max-width: 300px;
+    border-radius: 5%;
+  } 
+
+  a{
+    margin: 1rem;
+  }
