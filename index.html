@@ -3,9 +3,10 @@
 
 <head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css"> 
+    <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
     <title>Skillab Product Page</title>
 
 </head>
@@ -21,19 +22,29 @@
             <a href="#pricing" class="nav-link">Pricing</a>
         </nav>
     </header>
-    <div class="container"></div>
     <main>
-        <!-- video here. as a banner? -->
-        <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/YPE2dO5sII0"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-        </iframe>
-        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-            <label id="email-label">Email
-                <input type="email" id="email" name="email" placeholder="Start your journey today." required>
-            </label>
-            <input type="submit" value="Submit" id="submit">
-        </form>
+        <div id="hero-container">
+            <h2>Welcome to SKILLAB</h2>
+            <p>Are you ready to code?</p>
+            <a href="#" class="button">Register now</a>
+        </div>
+       <section id="course-options">
+            <article>
+                <h2>HTML</h2>
+                <p>Learn to build. Become a  HTML expert.</p>
+                <a href="" class="course-link">I'm ready!</a>
+            </article>
+            <article>
+                <h2>JavaScript</h2>
+                <p> Learn the art of JavaScript.</p>
+                <a href="" class="course-link">Let's go!</a>
+            </article>
+            <article>
+                <h2>CSS</h2>
+                <p>Make your websites pretty. Slay with CSS!</p>
+                <a href="" class="course-link">Let's slay!</a>
+            </article>
+        </section>
+        </main>
     </main>
 </body>

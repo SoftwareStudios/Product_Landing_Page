@@ -1,27 +1,97 @@
-*{
-    border: 1px solid red;
-    
-}
+
+
+body {
+  font-family: "Nova Flat", Tahoma, sans-serif;
+  background: #2d021b;
+  background: linear-gradient(#0b022d, 40%, #231b42);
+ }
 
 header {
-   /* position: fixed; */
-    /* top: 0; */
     min-height: 75px;
     display: flex;
     background-color: #eee;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background: #0b022d;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
-
 
     #header-img {
     width: 150px;
     height: 100px;
     max-width: 300px;
-    border-radius: 5%;
+    border-top-left-radius: 1rem;
   } 
+
+  main {
+    width: 100%;
+  } 
+
+  #hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("images/hero_code.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("images/hero_code.jpg"); /* The least supported option. */
+  background-size: cover; 
+  color: white;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+  #hero-container h2 {
+    font-size: 6rem;
+    letter-spacing: 10px;
+    margin: 0 ;
+  }
+
+  #hero-container p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  #hero-img {
+      object-fit: cover;
+
+  }
 
   a{
     margin: 1rem;
+    text-decoration: none;
+    color: white;
   }
+
+  #course-options {
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 1rem;
+  }
+
+  article {
+    width: 25%;
+    text-align: center;
+    word-wrap: break-word;
+    background: #0b022d;
+    color: white;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  article a,
+  .button {
+    background: #ffa300;
+    color: black;
+    font-weight: bold;
+    padding: 2vh;
+    border-radius: 1rem;
+  }
+
+  article p {
+    padding-bottom: 1rem;
+  }
+   
+  
