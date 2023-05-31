@@ -1,13 +1,16 @@
 # Product_Landing_Page
-A product landing page developed in HTMl and CSS using flexbox. (Still trying to get my head around it).
+A product landing page developed in HTMl and CSS using flexbox.
 
 ## Additions
 
-- 75% of HTML layout and some CSS for navigation. 
+- Layout with flexbox - 26 May 2023
+- Fonts and color scheme (not sure on this choice of font yet) - 30 May 2023 
 
 ## Future Features
+ - Add JavaScript to elements
+ - Responsive on mobile devices
 
-- Banner image
-- Style
-- More flexbox
+
+
+
 
